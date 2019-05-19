@@ -38,7 +38,7 @@ public class Out_3_var {
 
         catch (java.lang.NumberFormatException e) {
 
-            System.out.println("Format mismatch");
+            System.out.println("Format mismatch: слишком большое число (помните что: -2147483649 < integer < 2147483648)");
             System.exit(0);
 
         }
